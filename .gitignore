@@ -133,6 +133,20 @@ dist
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+# Залежності
+/node_modules
+/package-lock.json
+
+# Змінні середовища
+.env
+
+# Логи та кеш
+npm-debug.log*
+.vercel
+
+# Результати генерації (якщо створюються)
+/dist
+/build
 
 # Vite logs files
 vite.config.js.timestamp-*
